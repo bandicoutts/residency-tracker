@@ -1,4 +1,3 @@
-// frontend/src/pages/Login.tsx
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
@@ -48,8 +47,8 @@ const Login = () => {
         <button type="submit">Login</button>
       </form>
       <p>
-  Don&#39;t have an account? <a href="/register">Register here</a>.
-</p>
+        Don&apos;t have an account? <a href="/register">Register here</a>.
+      </p>
     </div>
   );
 };
